@@ -1,0 +1,383 @@
+*{ 
+    box-sizing:border-box; 
+}
+html,body{ 
+    margin:0; 
+    padding:0; 
+}
+body{ 
+    font-family: Arial, sans-serif; 
+    color: black;
+}
+h1,h2,h3{ 
+    margin:0 0 12px; 
+    line-height:1.15; 
+}
+p{ 
+    margin:0 0 12px; 
+    line-height:1.55; 
+}
+
+header, footer::after{ 
+    content:""; 
+    display:block; 
+    clear:both; 
+}
+header span{
+    font-size:12px; 
+    font-weight:800; 
+    
+}
+header .je{ 
+    float:left; 
+    margin-right:14px; 
+}        
+header .tu{ 
+    float:left; 
+}                          
+header .il{                                          
+    float:right;
+    border:1px solid white; 
+    border-radius:4px; 
+    padding:6px 10px;
+}
+header img{                             
+    position:absolute; 
+    left:50%; 
+    top:12px; 
+    transform:translateX(-50%);
+    height:24px; width:auto;
+}
+.hey{
+    text-align: center;
+}
+.hey h1{
+    font-size: 50px;
+}
+.hey .hi{
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 20px;
+}
+header, .hey{
+  background:#6a7b8e;
+  color:white;
+  min-height:90px;
+  position:relative;         
+  padding:14px 20px 0;
+
+}
+.hey .bas{
+    margin-top: 20px;
+}
+.hey .img{
+    color: rgb(41, 41, 51);
+    font-size: 8px;
+    margin-top: 50px;
+    padding-bottom: 25px;
+    font-style: italic;
+}
+
+
+.hola{
+    background: white; 
+    text-align:center; 
+    padding:56px 20px;
+}
+.hola h2{ 
+    font-size:40px; 
+    font-weight:800; 
+}
+.hola p{ 
+    max-width:720px; 
+    color:black;
+    margin: auto;
+}
+.salut{
+    overflow: hidden;
+}
+.salut{
+    background:#c9d3e0;
+    padding:64px 20px 72px;
+    min-height: 120px;
+}
+.section3{
+   
+    float: left;
+    width: 50%;
+}
+.box{
+    border: 1px solid black;
+    background-color: #6a7b8e; 
+    width: 50%;             
+    height: 150px;              
+    margin-bottom: 20px;   
+    margin-left: 150px; 
+}
+.section3, .right{
+   
+    text-align: center;
+}
+.va{
+    font-weight: bold;
+}
+.par{
+    margin-top: 20px;
+}
+.visit{
+    border: 1px solid black;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px;;
+    font-weight: 580;
+    margin-top: 50px;
+}
+.section3 .visit{
+    margin-bottom: 40px;
+}
+.right .visit{
+    margin-top: 25px;
+}
+.right{
+    float: right;
+    width: 50%;
+}
+.right{
+    padding-left: 1%;
+}
+
+.ciao{
+    background: white; 
+    text-align:center; 
+    padding:56px 20px;
+
+}
+.ciao p{
+    max-width:720px; 
+    color:black;
+    margin: auto;
+
+}
+.volunteer{
+    padding: 72px 20px;
+}
+.volunteer span{
+    border: 1px solid black;
+    padding: 20px;
+    font-weight: 600;
+}
+
+
+footer{
+    background:#1c2a33; 
+    padding:26px 20px 16px; 
+    font-size:13px;
+    color: white;
+}
+footer .left1{ 
+    float:left; 
+    width:48%; 
+    margin-right:4%;
+}
+footer .right1{ 
+    float:right; 
+    width:48%; 
+}
+
+
+footer img{
+    width:22px; 
+    height:22px; 
+    background:#3c4a55; 
+    border-radius:3px; 
+    display:inline-block; 
+}
+footer .site .one, footer .contribute .one{ 
+    display:block; 
+    font-weight:800; 
+    margin:8px 0 6px; 
+}
+.left1{
+    padding-left: 20px;
+}
+.right1{
+    padding-left: 250px;
+}
+.site .one, .contribute .one{
+    color: rgb(86, 81, 81)
+}
+.site .one span, .contribute .one span{
+    font-weight: 600;
+}
+.site p>span{
+    margin-right: 20px;
+}
+.contribute span+span{
+
+    margin-right: 20px;
+}
+footer .level h4{ 
+    margin:0 0 8px; 
+    font-weight:800; 
+    width: 40%;
+}
+footer .address span{ 
+    display:block; 
+    line-height:1.35; 
+}
+.contribute{
+    padding-bottom: 15px;
+}
+.address span+span+span+span{
+    font-weight:600;
+}
+footer .bottom { 
+    clear: both;
+    font-size:12px; 
+    opacity:.85; 
+    margin-top:10px; 
+    border-top: 1px solid white;
+    
+}
+.bottom p{
+    margin-top: 15px;
+    color: white;
+    margin-left: 15px;
+    font-weight: 600;
+}
+.bottom img{
+    float: right;
+    margin-top: -30px;
+}
+
+/*responsiveness for small phones*/
+
+@media (max-width: 767.98px) {
+
+  html, body { 
+    overflow-x: hidden;
+    margin: 0; 
+}
+
+  /* Header: stack + center */
+  header { 
+    padding: 12px 16px; 
+    text-align: center; 
+}
+  header .je,
+  header .tu,
+  header .il {
+    float: none;
+    display: inline-block;
+    margin: 6px 8px;
+    width: 100%;
+    
+  }
+  header img {                
+    display: block;
+    margin-left: -150px;
+    height: 22px;
+  }
+
+  /* Hero section */
+  .hey { 
+    padding: 24px 16px 18px; 
+}
+  .hey h1 { 
+    font-size: 32px; 
+    line-height: 1.2; 
+}
+  .hey .hi { 
+    margin: 12px 0 0; 
+}
+  .hey .bas { 
+    margin-top: 14px; 
+}
+  .hey .img { 
+    margin-top: 28px; 
+}
+
+  /* WHY section */
+  .hola { 
+    padding: 36px 16px; 
+}
+  .hola h2 { 
+    font-size: 28px;
+ }
+  .hola p { 
+    max-width: 100%; 
+}
+
+  /* visit the gym section*/
+  .salut { 
+    padding: 36px 16px 40px; 
+}
+  .section3,.right {
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+  .box {
+    width: 90%;
+    margin: auto;   
+    height: 160px;
+}
+  .va { 
+    display: block; 
+    margin-top: 4px; 
+}
+  .par { 
+    margin: 10px 0 0; 
+}
+  .visit {
+    max-width: 280px;
+    margin: 18px auto 28px;
+    padding: 14px;
+}
+
+  /* Volunteer section */
+  .ciao { 
+    padding: 40px 16px; 
+}
+  .ciao p { 
+    max-width: 100%; 
+}
+  .volunteer { 
+    padding: 28px 0 0;
+}
+  .volunteer span {
+    display: inline-block; 
+    padding: 14px 18px; 
+}
+
+  /* Footer */
+  footer { 
+    padding: 22px 16px; 
+}
+  footer .left1, footer .right1, .bottom img {
+
+    float: none;
+    width: 100%;
+    margin: 0 0 20px;
+    padding-left: 0;    
+  
+}
+  .bottom img{
+    width: 20%;
+}
+  footer .level h4 { 
+    width: auto; 
+}
+  footer .bottom { 
+    margin-top: 18px; 
+}
+  .bottom p{
+    margin-left: 1px;
+  }
+  .bottom img { 
+    float: none; 
+    display: block; 
+    margin: 0; 
+}
+}
