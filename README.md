@@ -1,1 +1,1 @@
-Responsive level ground replica
+A responsive level ground replica
